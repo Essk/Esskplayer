@@ -1,0 +1,100 @@
+  .esskplayer_vidContainer{
+margin-left:auto;
+margin-right:auto;
+width: 500px;
+}
+
+  .esskplayer_controlsBottom{
+	height:32px;
+	display:block;
+	width:100%;
+	background-image: url(graphics/BG_main_1x36.png); 
+	background-repeat: repeat-x;
+  }
+  
+  .esskplayer_scrubContainer  	{
+	height:16px;
+	display:block;
+	border-width:1px 1px 1px 1px;
+	-webkit-border-image: url(graphics/bar_3x16.png) 1 1 1 1 repeat stretch;
+  }
+  
+  .esskplayer_scrubBar{
+  width:100%;
+  height: 16px;
+  }
+  
+  .esskplayer_scrubPlayed{
+	float:left;
+	height: 16px;
+	background-image: url(graphics/played_1x14.png);
+	
+  }
+  
+  .esskplayer_scrubLoaded{
+	display: none;
+	height: 16px;
+	background-image: url(graphics/loaded_1x14.png);
+  }
+  
+  .esskplayer_Play{
+  background-image: url(graphics/play48x32.png);
+  width: 48px;
+  height: 32px;
+  background-repeat: no-repeat;
+  float:left;
+  margin-right:1px;
+  }
+  
+   .esskplayer_Pause{
+  background-image: url(graphics/pause48x32.png);
+  width: 48px;
+  height: 32px;
+  background-repeat: no-repeat;
+  float:left;
+  margin-right:1px;
+  }
+  
+  .esskplayer_rewindButton{
+  background-image: url(graphics/rewind48x32.png);
+  width: 48px;
+  height: 32px;
+  background-repeat: no-repeat;
+  float:left;
+  clear:right;
+  }
+  
+    .esskplayer_muted{
+  background-image: url(graphics/mute_24x24.png);
+  width: 48px;
+  height: 24px;
+  background-repeat: no-repeat;
+  float:right;
+  margin-top:5px;
+  }
+  
+      .esskplayer_not_muted{
+  background-image: url(graphics/sound_full_24x24.png);
+  width: 48px;
+  height: 24px;
+  background-repeat: no-repeat;
+  float:right;
+  margin-top:5px;
+  }
+  
+.esskplayer_showElapsed, .esskplayer_showDuration{
+	float:left;
+	
+	font-family: helvetica;
+	font-size: 1 em;
+	color: #cccccc;
+	padding-top: 7;
+	margin-left: 0.5em;
+	
+}
+
+video{
+margin-left:auto;
+margin-right:auto;
+width:100%;
+}

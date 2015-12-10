@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lass="watch-later-icon" viewBox="0 0 20 20" preserveAspectRatio="xMidYMid" tabindex="-1">
+	<defs>
+        <style type="text/css"><![CDATA[
+            polyline  {
+                fill: #fff;
+            }
+            circle{
+                stroke: #fff;
+                fill:none;
+            }
+        ]]></style>
+    </defs>
+<polyline class="fill hour-hand" points="9.64,4.68 10.56,4.68 11.28,11.21 8.93,11.21 9.64,4.68">
+</polyline>
+<polyline class="fill minute-hand" points="14.19,13.65 13.7,14.14 8.58,10.4 10.44,8.5 14.19,13.65">
+</polyline>
+<circle class="stroke" cx="10" cy="10" r="8" stroke-width="2">
+</circle>
+</svg>

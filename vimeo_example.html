@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/vimeo.css" rel="stylesheet" type="text/css">
+    <script src="js/modernizr.js"></script>
+    <script type="text/javascript" src="js/esskplayer.js"></script>
+    <script type="text/javascript" src="js/vimeo/extras.js"></script>
+</head>
+</head>
+<body>
+<div id="content">
+    <div id="clip">
+        <script type="text/javascript">
+            var zeVideo1= new Esskplayer('http://seriouslyjs.org/video/wtf_greenscreen_sm.mp4', {});
+            document.getElementById("clip").appendChild(zeVideo1.container);
+            document.getElementById("clip").appendChild(mkUpSocial());
+            document.getElementsByClassName('esskplayer_scrubContainer')[0].appendChild(mkUpExtras());
+        </script>
+        <div id="info" class="boxed">
+            your infos go here
+        </div>
+    </div>
+
+
+</div>
+</body>
+
+</html>

@@ -1,7 +1,7 @@
   .esskplayer_vidContainer{
 margin-left:auto;
 margin-right:auto;
-width: 500px;
+/*width: 500px;*/
 }
 
   .esskplayer_controlsBottom{
@@ -84,6 +84,7 @@ width: 500px;
   
 .esskplayer_showElapsed, .esskplayer_showDuration{
 	float:left;
+
 	
 	font-family: helvetica;
 	font-size: 1 em;

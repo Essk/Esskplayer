@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  class="share-icon" viewBox="0 0 20 20" preserveAspectRatio="xMidYMid" tabindex="-1">
+	<defs>
+        <style type="text/css"><![CDATA[
+            polygon {
+                fill: #fff;
+            }
+        ]]></style>
+    </defs>
+
+<polygon class="fill" points="20,0 0,12 5,15 17,4 7,16 7,19 9,17 14,20">
+</polygon>
+</svg>
